@@ -1,16 +1,12 @@
-main{
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25% ;
-    grid-template-rows: 1fr 1fr 1fr 1fr ;
-    height: 500px;
-    border:2px solid black;
+body{
+    font-size: 30px;
+    background-color:rgb(164, 208, 246) ;
 }
 
 
-
-.texture{
-    grid-area:2/2/3/3;
-    border:2px solid black;
-    margin:0px;
+@media screen and (max-width:760px){
+    body{
+        font-size: 10px;
+        background-color: brown;
+    }
 }
-
